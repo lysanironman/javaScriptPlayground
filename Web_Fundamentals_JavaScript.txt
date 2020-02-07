@@ -1,4 +1,20 @@
-What are the eight data types of javascript?
+~Fundametals Part 1~
+How do you declare a variable? We begin with the keyword (i.e. let, var) and then the name of the variable which should be descriptive and then an equal sign with its initial value. 
+What are three different ways to declare a variable? We can use the keywords: var, let, or const.
+Which one should you use when? 
+What are the rules for naming variables? Camel Case, they should always begin with a lowercase letter, they should be descriptive. They cannot begin with a number. All Capitals can be used for words that have a hard and defined meaning, like BIRTHDAY that doesn´t change. 
+What are operators, operands, and operations? These are the symbols that are used in order to complete functions. The operator is the symbol that performs the task, the operands are the values that the task is performed on and the operation is their relationship to one another. 
+What is concatenation and what happens when you add numbers and strings together? Concatenation is the process of “smashing together” two values into one value. This happens when you add strings together. Thus, if one wants a space, they must declare it within the “”. When a string is joined with a number type object, they are concatenated. Thus “$” + 4 becomes $4. 
+What are the different types of operators in JavaScript?
+What is the difference between == and ===? == defines that the values of objects are the same. === defines if the type and the value of objects are the same. 
+What are operator precedence values? They are values given within the programming language to certain tasks. The higher the value, the quicker that task is performed in relation to others with lower numbers. 
+What are the increment/decrement operators? They are ++ and - - and define the act of adding or subtracting one from the variable it is attached to. For example: a=a++ or a=++a.
+What is the difference between prefixing and post-fixing them? Prefixing increments makes the value in the console show the increment/decriment value. Postfixing it will display the original value of the variable but assign the new value to the variable going forward. 
+What are assignment operators? Assignment Operators (example =) are operators that assign a task to be committed between two operands (one on the left to the one on the right). This sort of operator REQUIRES two (binary) operands. 
+What is the “Unary +” Operator? The "Unary +" comes before the opderand it is attempting to change. It attempts to convert the object in question into a numerical value. 
+
+
+What are the eight data types of javascript? 
 Which data type is NOT primitive?
 What is the difference between single, double, and backtick quotes for strings?
 Which type of quote lets you embed variables/expressions into a string?
@@ -16,3 +32,4 @@ What is the syntax for a switch statement?
 What is the syntax for a ternary operator?
 What is the relationship between null and undefined?
 What are conditionals?
+
