@@ -1,4 +1,5 @@
 body {
+    -webkit-margin-start: 0px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: saddlebrown;
@@ -19,3 +20,27 @@ p {
 #welcomeButton:hover {
     border: none;
 }
+iframe {
+    height: 100px;
+    width: 300px;
+        border: transparent;
+    background-color: teal;
+    border-radius: 24px;
+    float: bottom;
+    padding: 0px;
+    border: 2px green inset;
+    }
+#Spotify {
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin: 0;
+    border: none;
+    padding: 0;
+    border-radius: 24px;
+    text-align: right;
+    position: absolute;
+        top: 8px;
+        right: 150px;
+        font-size: 18px;
+   }
