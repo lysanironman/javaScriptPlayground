@@ -1,10 +1,10 @@
 body {
     -webkit-margin-start: 0px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     color: saddlebrown;
-    margin: 49px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/86/27/kids-playground-cartoon-concept-background-vector-15068627.jpg");
+    margin: 100%;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/86/27/kids-playground-cartoon-concept-background-vector-15068627.jpg") no-repeat;
 }
 p {
     font-family: papyrus;
@@ -44,3 +44,4 @@ iframe {
         right: 150px;
         font-size: 18px;
    }
+
