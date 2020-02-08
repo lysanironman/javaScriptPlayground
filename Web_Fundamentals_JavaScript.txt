@@ -46,21 +46,21 @@
     two operands (one on the left to the one on the right). This sort of operator 
     REQUIRES two (binary) operands. 
 *What is the “Unary +” Operator? 
-    The "Unary +" comes before the opderand it is attempting to change. 
+    The "Unary +" comes before the operand it is attempting to change. 
     It attempts to convert the object in question into a numerical value. 
 
-~Fundametals Part 2~
+~Fundamentals Part 2~
 
 *What are the eight data types of javascript? 
     1-Number (1,∞,-∞,NaN[Not a Number])
     2-bigInt (For integers greater than + or - 2^53) - New (Supported by Chrome/Firefox)
-    3-String ("",'' for most strings; `` for embeding variables within a string for extended f(x))
+    3-String ("",'' for most strings; `` for embedding variables within a string for extended f(x))
     4-Boolean (The Logical types: True or False)
     5-null (“nothing”, “empty” or “value unknown”)
     6-undefined (For values that are not defined. i.e. let i;<br>console.log(i)=undefined)
     7-object (store collections of data and more complex entities)
     8-symbol (create unique identifiers for objects)
-    //typeOf() is a tool that is used to discover a data's type.
+    //typeOf() is a tool that is used to discover a data type.
 *Which data type is NOT primitive?
     Primitive implies that only a single value is inputted into a given input type.
     This means that object is NOT primitive because it can store multiple values at once.
@@ -73,7 +73,9 @@
 *How do you embed variables/expressions into a string?
     A coder would have to utilize the following syntax: `I have ${4*20} in my bank account!`
     //Displays "I have $80 in my bank account!"
-*How do you escape characters in a string?
+*How do you escape characters in a string? 
+    Escaping is the act of putting a backslash (\) before a given quotation mark.
+    example: console.log('I\'ve been workin\' on the railroad!)
 *What is the difference between slice/substring/substr?
 *What are methods?
 *What are the three logical operators and what do they stand for?

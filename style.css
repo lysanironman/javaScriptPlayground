@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: saddlebrown;
+    margin: 49px;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/86/27/kids-playground-cartoon-concept-background-vector-15068627.jpg");
+}
+p {
+    font-family: papyrus;
+    font-weight: bolder;
+}
+#welcomeButton {
+    margin: 0px 200px 50px 420px;
+    background-color: wheat;
+    color: rgb(65, 9, 9);
+    border: rgb(35, 196, 224) solid 0 2px 3px 2px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+#welcomeButton:hover {
+    border: none;
+}
