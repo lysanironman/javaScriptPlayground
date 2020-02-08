@@ -1,35 +1,89 @@
 ~Fundametals Part 1~
-How do you declare a variable? We begin with the keyword (i.e. let, var) and then the name of the variable which should be descriptive and then an equal sign with its initial value. 
-What are three different ways to declare a variable? We can use the keywords: var, let, or const.
-Which one should you use when? 
-What are the rules for naming variables? Camel Case, they should always begin with a lowercase letter, they should be descriptive. They cannot begin with a number. All Capitals can be used for words that have a hard and defined meaning, like BIRTHDAY that doesn´t change. 
-What are operators, operands, and operations? These are the symbols that are used in order to complete functions. The operator is the symbol that performs the task, the operands are the values that the task is performed on and the operation is their relationship to one another. 
-What is concatenation and what happens when you add numbers and strings together? Concatenation is the process of “smashing together” two values into one value. This happens when you add strings together. Thus, if one wants a space, they must declare it within the “”. When a string is joined with a number type object, they are concatenated. Thus “$” + 4 becomes $4. 
-What are the different types of operators in JavaScript?
-What is the difference between == and ===? == defines that the values of objects are the same. === defines if the type and the value of objects are the same. 
-What are operator precedence values? They are values given within the programming language to certain tasks. The higher the value, the quicker that task is performed in relation to others with lower numbers. 
-What are the increment/decrement operators? They are ++ and - - and define the act of adding or subtracting one from the variable it is attached to. For example: a=a++ or a=++a.
-What is the difference between prefixing and post-fixing them? Prefixing increments makes the value in the console show the increment/decriment value. Postfixing it will display the original value of the variable but assign the new value to the variable going forward. 
-What are assignment operators? Assignment Operators (example =) are operators that assign a task to be committed between two operands (one on the left to the one on the right). This sort of operator REQUIRES two (binary) operands. 
-What is the “Unary +” Operator? The "Unary +" comes before the opderand it is attempting to change. It attempts to convert the object in question into a numerical value. 
 
+*How do you declare a variable? 
+    We begin with the keyword (i.e. let, var) and then the name of the variable 
+    which should be descriptive and then an equal sign with its initial value. 
+*What are three different ways to declare a variable? 
+    We can use the keywords: var, let, or const.
+*Which one should you use when? 
+    var is used in older scripts. Newer versions still recognize var.
+    let is used when the variable in question is one the coder would want to change.
+    const is used when the coder wants a variable to stay the same regardless of attempts 
+    to change it. 
+*What are the rules for naming variables?
+    Camel Case, they should always begin with a lowercase letter, they should 
+    be descriptive. They cannot begin with a number. All Capitals can be used 
+    for words that have a hard and defined meaning, like BIRTHDAY that doesn´t change. 
+*What are operators, operands, and operations? 
+    These are the symbols that are used in order to complete functions. 
+    The operator is the symbol that performs the task, the operands are the values that
+    the task is performed on and the operation is their relationship to one another. 
+*What is concatenation and what happens when you add numbers and strings together? 
+    Concatenation is the process of “smashing together” two values into one value. 
+    This happens when you add strings together. Thus, if one wants a space, they must 
+    declare it within the “”. When a string is joined with a number type object, they 
+    are concatenated. Thus “$” + 4 becomes $4. 
+*What are the different types of operators in JavaScript? 
+    Arithmetic (For doing mathematical operations), 
+    Comparison (i.e. ==,===, >, <; return Booleans[True or False]), 
+    Logical (i.e. &&, ||, !; combines two or more conditions)
+*What is the difference between == and ===? 
+    == defines that the values of objects are the same. === defines if the type and 
+    the value of objects are the same. 
+*What are operator precedence values? 
+    They are values given within the programming language to certain tasks. 
+    The higher the value, the quicker that task is performed in relation to others 
+    with lower numbers. 
+*What are the increment/decrement operators? 
+    They are ++ and - - and define the act of adding or subtracting one from the variable 
+    it is attached to. For example: a=a++ or a=++a.
+*What is the difference between prefixing and post-fixing them? 
+    Prefixing increments makes the value in the console show the increment/decriment value. 
+    Postfixing it will display the original value of the variable but assign the new value to 
+    the variable going forward. 
+*What are assignment operators? 
+    Assignment Operators (example =) are operators that assign a task to be committed between 
+    two operands (one on the left to the one on the right). This sort of operator 
+    REQUIRES two (binary) operands. 
+*What is the “Unary +” Operator? 
+    The "Unary +" comes before the opderand it is attempting to change. 
+    It attempts to convert the object in question into a numerical value. 
 
-What are the eight data types of javascript? 
-Which data type is NOT primitive?
-What is the difference between single, double, and backtick quotes for strings?
-Which type of quote lets you embed variables/expressions into a string?
-How do you embed variables/expressions into a string?
-How do you escape characters in a string?
-What is the difference between slice/substring/substr?
-What are methods?
-What are the three logical operators and what do they stand for?
-What are the comparison operators?
-What is nesting?
-What are truthy and falsy values?
-What are the falsy values in Javascript?
-What is the syntax for an if/else if/else conditional?
-What is the syntax for a switch statement?
-What is the syntax for a ternary operator?
-What is the relationship between null and undefined?
-What are conditionals?
+~Fundametals Part 2~
+
+*What are the eight data types of javascript? 
+    1-Number (1,∞,-∞,NaN[Not a Number])
+    2-bigInt (For integers greater than + or - 2^53) - New (Supported by Chrome/Firefox)
+    3-String ("",'' for most strings; `` for embeding variables within a string for extended f(x))
+    4-Boolean (The Logical types: True or False)
+    5-null (“nothing”, “empty” or “value unknown”)
+    6-undefined (For values that are not defined. i.e. let i;<br>console.log(i)=undefined)
+    7-object (store collections of data and more complex entities)
+    8-symbol (create unique identifiers for objects)
+    //typeOf() is a tool that is used to discover a data's type.
+*Which data type is NOT primitive?
+    Primitive implies that only a single value is inputted into a given input type.
+    This means that object is NOT primitive because it can store multiple values at once.
+*What is the difference between single, double, and backtick quotes for strings?
+    '' - Stores Regular Strings.
+    "" - Stores Regular Strings.
+    `` - Stores strings that one can embed other variables into. As to store multiple variables w/i a string.
+*Which type of quote lets you embed variables/expressions into a string?
+    `` quotes allow for this behavior.
+*How do you embed variables/expressions into a string?
+    A coder would have to utilize the following syntax: `I have ${4*20} in my bank account!`
+    //Displays "I have $80 in my bank account!"
+*How do you escape characters in a string?
+*What is the difference between slice/substring/substr?
+*What are methods?
+*What are the three logical operators and what do they stand for?
+*What are the comparison operators?
+*What is nesting?
+*What are truthy and falsy values?
+*What are the falsy values in Javascript?
+*What is the syntax for an if/else if/else conditional?
+*What is the syntax for a switch statement?
+*What is the syntax for a ternary operator?
+*What is the relationship between null and undefined?
+*What are conditionals?
 

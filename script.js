@@ -1,4 +1,4 @@
-console.log("Hello, World!")
+console.log("Fundamentals Part I")
 let num1 = 10;
 let num2 = 50;
 console.log(9 * num1);
@@ -15,3 +15,4 @@ let max = 57
 let actual = max - 13
 let percentage = actual / max
 console.log(percentage);
+console.log("Fundamentals Part II");
