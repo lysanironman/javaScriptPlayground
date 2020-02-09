@@ -1,4 +1,4 @@
-~Fundametals Part 1~
+~Fundamentals Part 1~
 
 *How do you declare a variable? 
     We begin with the keyword (i.e. let, var) and then the name of the variable 
@@ -76,7 +76,12 @@
 *How do you escape characters in a string? 
     Escaping is the act of putting a backslash (\) before a given quotation mark.
     example: console.log('I\'ve been workin\' on the railroad!)
-*What is the difference between slice/substring/substr?
+*What is the difference between slice/substring/substr? 
+    slice - is a command that is used in order to bring forth a portion of a string. 
+        [syntax: variable.slice(0,3);] - slice starts at first position (0) and stops at (2)
+        [syntax: variable.slice(2);] - starts at (2) and documents the rest of the string.
+    substring - 
+    substr - 
 *What are methods?
 *What are the three logical operators and what do they stand for?
 *What are the comparison operators?
